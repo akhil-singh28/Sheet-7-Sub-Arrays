@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+l, r = map(int, input().split())
+sum = sum(arr[l-1 : r])
+print(sum)
