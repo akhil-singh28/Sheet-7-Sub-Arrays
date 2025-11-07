@@ -7,3 +7,5 @@ def subA(arr, n):
                 print(arr[k], end=' ')
             print()
 subA(arr, n)
+
+
